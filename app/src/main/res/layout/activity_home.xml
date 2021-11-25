@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".THomeActivity">
+
     <Button
         android:id="@+id/Zaiko_button"
         android:layout_width="300dp"
@@ -16,17 +17,17 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18" />
+        app:layout_constraintVertical_bias="0.159" />
 
     <Button
         android:id="@+id/OmiseJ_button"
         android:layout_width="300dp"
         android:layout_height="130dp"
         android:backgroundTint="#BDDCF4"
-        android:text="お店情報編集"
+        android:text="店舗情報編集"
         android:textColor="#121212"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -35,14 +36,15 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732" />
+        app:layout_constraintVertical_bias="0.695" />
 
     <Button
         android:id="@+id/Maps_button"
         android:layout_width="300dp"
         android:layout_height="130dp"
+        android:layout_marginBottom="24dp"
         android:backgroundTint="#94CA96"
-        android:text="店内マップ編集"
+        android:text="店舗マップ編集"
         android:textColor="#101010"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -65,6 +67,19 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.427" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="414dp"
+        android:layout_height="66dp"
+        android:background="#03A9F4"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="@+id/Maps_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
