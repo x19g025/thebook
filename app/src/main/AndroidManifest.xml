@@ -11,10 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheBook">
         <activity
-            android:name=".TBlogActivity"
+            android:name=".TStockEditActivity"
             android:exported="false" />
         <activity
-            android:name=".TZaikoSentakuActivity"
+            android:name=".TShopInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TMapCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TStockChoiceActivity"
             android:exported="false" />
         <activity
             android:name=".THomeActivity"

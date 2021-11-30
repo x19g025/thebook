@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TZaikoSentakuActivity">
+    tools:context=".TStockChoiceActivity">
 
     <Button
-        android:id="@+id/Touroku_button"
+        android:id="@+id/Register_button"
         android:layout_width="238dp"
         android:layout_height="130dp"
         android:layout_marginTop="64dp"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.255" />
 
     <Button
-        android:id="@+id/Kakunin_button"
+        android:id="@+id/Check_button"
         android:layout_width="233dp"
         android:layout_height="125dp"
         android:text="確認"

@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6E0AD"
     tools:context=".THomeActivity">
 
     <Button
-        android:id="@+id/Zaiko_button"
+        android:id="@+id/StockChoice_button"
         android:layout_width="300dp"
         android:layout_height="130dp"
         android:backgroundTint="#DD9999"
         android:text="在庫登録・確認"
         android:textColor="#101010"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,13 +24,13 @@
         app:layout_constraintVertical_bias="0.159" />
 
     <Button
-        android:id="@+id/OmiseJ_button"
+        android:id="@+id/TShopInfoEdit_button"
         android:layout_width="300dp"
         android:layout_height="130dp"
         android:backgroundTint="#BDDCF4"
         android:text="店舗情報編集"
         android:textColor="#121212"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,14 +40,14 @@
         app:layout_constraintVertical_bias="0.695" />
 
     <Button
-        android:id="@+id/Maps_button"
+        android:id="@+id/TMap_button"
         android:layout_width="300dp"
         android:layout_height="130dp"
         android:layout_marginBottom="24dp"
         android:backgroundTint="#94CA96"
         android:text="店舗マップ編集"
         android:textColor="#101010"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,13 +55,13 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/Osirase_button"
+        android:id="@+id/TBlog_button"
         android:layout_width="300dp"
         android:layout_height="130dp"
         android:backgroundTint="#D8D0E6"
         android:text="お知らせブログ"
         android:textColor="#0B0B0B"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +77,7 @@
         android:background="#03A9F4"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="@+id/Maps_button"
+        app:layout_constraintBottom_toBottomOf="@+id/TMap_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
