@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_gazou_hozon.xml" value="0.34375" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_stock_choice.xml" value="0.2838541666666667" />
@@ -18,6 +19,7 @@
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tzaiko_edit.xml" value="0.1" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tzaiko_register.xml" value="0.25" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_zaiko_sentaku.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/strings.xml" value="0.1" />
       </map>
     </option>
   </component>

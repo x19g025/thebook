@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">The Book</string>
+    <string name="app_name">Your app name</string>
+    <string name="description">photo</string>
+    <string name="save">Button Save</string>
+    <string name="read">Button Read</string>
+    <string name="saved">image saved</string>
+    <string name="error">error: FileOutputStream </string>
 </resources>
