@@ -7,26 +7,56 @@
     android:background="#E6E0AD"
     tools:context=".TMapCreateActivity">
 
+    <Button
+        android:id="@+id/Hensyu_button"
+        android:layout_width="106dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#DA1515"
+        android:text="編集"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar3"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:id="@+id/toolbar4"
+        android:layout_width="416dp"
+        android:layout_height="72dp"
+        android:background="#86D1F3"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
-    <ImageView
-        android:id="@+id/imageBluePaint"
-        android:layout_width="375dp"
-        android:layout_height="491dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="88dp"
-        android:src="@drawable/tennai.png"
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+        android:text="店内マップ編集"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar4"
+        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="365dp"
+        android:layout_height="465dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/omisemap" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
