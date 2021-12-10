@@ -3,15 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_fake_create.xml" value="0.22" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_gazou_hozon.xml" value="0.34375" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_johen2.xml" value="0.3625" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_stock_choice.xml" value="0.2838541666666667" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_stock_register.xml" value="0.13804457953394123" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tblog.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_thome.xml" value="0.33" />
-        <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tmap_create.xml" value="0.25" />
-        <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tpost.xml" value="0.25" />
+        <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tmap_create.xml" value="0.33" />
+        <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tpost.xml" value="0.22" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tshop_info.xml" value="0.25" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tstock_choice.xml" value="0.29010416666666666" />
         <entry key="..\:/Users/x19g025/AndroidStudioProjects/TheBook/app/src/main/res/layout/activity_tstock_edit.xml" value="0.29010416666666666" />

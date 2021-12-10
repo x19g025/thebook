@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E6E0AD"
-    tools:context=".TMapCreateActivity">
+    tools:context=".FakeCreateActivity">
 
     <Button
         android:id="@+id/Hensyu_button"
@@ -23,9 +23,9 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar4"
-        android:layout_width="411dp"
-        android:layout_height="81dp"
-        android:background="#03A9F4"
+        android:layout_width="416dp"
+        android:layout_height="88dp"
+        android:background="#86D1F3"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +37,7 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="264dp"
+        android:layout_width="267dp"
         android:layout_height="44dp"
         android:text="店内マップ編集"
         android:textColor="#0B0A0A"
@@ -48,17 +48,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.659" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="334dp"
-        android:layout_height="453dp"
-        android:layout_marginBottom="52dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/omisemap" />
 
     <Button
         android:id="@+id/Kousin_button"
@@ -73,5 +62,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="342dp"
+        android:layout_height="382dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616"
+        app:srcCompat="@drawable/fakemap" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

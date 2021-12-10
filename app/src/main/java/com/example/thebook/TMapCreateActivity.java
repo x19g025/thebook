@@ -15,10 +15,17 @@ public class TMapCreateActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tmap_create);
 
         final Button Hensyu_button = findViewById(R.id.Hensyu_button);
+        final Button Kousin_button = findViewById(R.id.Kousin_button);
 
         Hensyu_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(TMapCreateActivity.this, GazouHozonActivity.class); //画像保存場所
+                startActivity(intent);
+            }
+        });
+        Kousin_button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(TMapCreateActivity.this, FakeCreateActivity.class); //画像保存場所
                 startActivity(intent);
             }
         });

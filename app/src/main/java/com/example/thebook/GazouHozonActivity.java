@@ -24,7 +24,7 @@ public class GazouHozonActivity extends AppCompatActivity {
     private ImageView imageView;
 
     // asset の画像ファイル名
-    private final String fileName = "sample_image.jpg";
+    private final String fileName = "Tennai.png";
     private File file;
 
     @Override
@@ -80,20 +80,20 @@ public class GazouHozonActivity extends AppCompatActivity {
 
             }
         });
-
-        Button buttonRead = findViewById(R.id.button_read);
-        buttonRead.setOnClickListener( v -> {
-            if(isExternalStorageReadable()){
-                try(InputStream inputStream0 =
-                            new FileInputStream(file) ) {
-
-                    Bitmap bitmap = BitmapFactory.decodeStream(inputStream0);
-                    imageView.setImageBitmap(bitmap);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
+//
+//        Button buttonRead = findViewById(R.id.button_read);
+//        buttonRead.setOnClickListener( v -> {
+//            if(isExternalStorageReadable()){
+//                try(InputStream inputStream0 =
+//                            new FileInputStream(file) ) {
+//
+//                    Bitmap bitmap = BitmapFactory.decodeStream(inputStream0);
+//                    imageView.setImageBitmap(bitmap);
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        });
     }
 
     /* Checks if external storage is available for read and write */

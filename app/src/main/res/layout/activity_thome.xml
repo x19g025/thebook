@@ -70,17 +70,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.427" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="414dp"
-        android:layout_height="66dp"
-        android:background="#03A9F4"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="@+id/TMap_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

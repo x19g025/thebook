@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6E0AD"
     tools:context=".TStockChoiceActivity">
 
     <Button
@@ -11,6 +12,7 @@
         android:layout_width="238dp"
         android:layout_height="130dp"
         android:layout_marginTop="64dp"
+        android:backgroundTint="#4CAF50"
         android:text="登録"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,6 +26,7 @@
         android:id="@+id/Check_button"
         android:layout_width="233dp"
         android:layout_height="125dp"
+        android:backgroundTint="#DD552A"
         android:text="確認"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,15 +37,27 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
-        android:layout_width="414dp"
-        android:layout_height="66dp"
+        android:layout_width="411dp"
+        android:layout_height="81dp"
         android:background="#03A9F4"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="172dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="登録確認画面"
+        android:textColor="#050505"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

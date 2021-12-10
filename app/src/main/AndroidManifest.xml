@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheBook">
         <activity
+            android:name=".FakeCreateActivity"
+            android:exported="false" />
+        <activity
             android:name=".GazouHozonActivity"
             android:exported="false" />
         <activity
