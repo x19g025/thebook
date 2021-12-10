@@ -16,16 +16,16 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.973" />
+        app:layout_constraintVertical_bias="0.142" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar4"
-        android:layout_width="411dp"
-        android:layout_height="81dp"
-        android:background="#03A9F4"
+        android:layout_width="416dp"
+        android:layout_height="72dp"
+        android:background="#86D1F3"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,41 +37,26 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="264dp"
+        android:layout_width="267dp"
         android:layout_height="44dp"
         android:text="店内マップ編集"
-        android:textColor="#0B0A0A"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
         app:layout_constraintEnd_toEndOf="@+id/toolbar4"
         app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.659" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="334dp"
-        android:layout_height="453dp"
-        android:layout_marginBottom="52dp"
+        android:layout_width="365dp"
+        android:layout_height="465dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/omisemap" />
-
-    <Button
-        android:id="@+id/Kousin_button"
-        android:layout_width="103dp"
-        android:layout_height="64dp"
-        android:backgroundTint="#DA1515"
-        android:text="更新"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
