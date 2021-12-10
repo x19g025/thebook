@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheBook">
         <activity
+            android:name=".GazouHozonActivity"
+            android:exported="false" />
+        <activity
             android:name=".TStockEditActivity"
             android:exported="false" />
         <activity
