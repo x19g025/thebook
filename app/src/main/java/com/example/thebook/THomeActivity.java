@@ -18,7 +18,7 @@ public class THomeActivity extends AppCompatActivity {
         final Button TShopInfoEdit_button = findViewById(R.id.TShopInfoEdit_button);
         final Button TMap_button = findViewById(R.id.TMap_button);
 
-        StockChoice_button.setOnClickListener(new View.OnClickListener(){
+        StockChoice_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(THomeActivity.this, TStockChoiceActivity.class); //ブログお知らせ画面に遷移
                 startActivity(intent);
