@@ -12,12 +12,24 @@ public class TShopInfoActivity extends AppCompatActivity
         implements AdapterView.OnItemClickListener {
 
     private static final String[] scenes = {
-            "AA書店",
-            "NB書店"
+            "船橋書店",
+            "FJB書店"
+    };
+    private static final String[] address = {
+            "〒273-0005 千葉県船橋市本町7丁目",
+            "〒273-0005 千葉県船橋市本町7丁目12-16"
+    };
+    private static final String[] time = {
+            "営業時間 10：00 ~ 20:00",
+            "営業時間 10：00 ~ 22:00"
     };
     private static final String[] tel = {
             "03-123-1594",
-            "03-459-1594"
+            "03-459-1932"
+    };
+    private static final String[] hp = {
+            "funabashi.net",
+            "fjb.net"
     };
 
     @Override
@@ -32,7 +44,7 @@ public class TShopInfoActivity extends AppCompatActivity
         // レイアウトファイル list.xml を activity_main.xml に
         // inflate するためにadapterに引数として渡す
         BaseAdapter adapter = new ListViewAdapter(this.getApplicationContext(),
-                R.layout.list, scenes ,tel);
+                R.layout.list,scenes,tel);
 
         // ListViewにadapterをセット
         listView.setAdapter(adapter);
@@ -51,10 +63,16 @@ public class TShopInfoActivity extends AppCompatActivity
 
         // clickされたpositionのtextとphotoのID
         String selectedText = scenes[position];
-        String selectedText2 = scenes[position];
+        String selectedText2 = address[position];
+        String selectedText3 = time[position];
+        String selectedText4 = tel[position];
+        String selectedText5 = hp[position];
         // インテントにセット
         intent.putExtra("Text", selectedText);
         intent.putExtra("Text2", selectedText2);
+        intent.putExtra("Text3", selectedText3);
+        intent.putExtra("Text4", selectedText4);
+        intent.putExtra("Text5", selectedText5);
         // SubActivityへ遷移
         startActivity(intent);
     }
