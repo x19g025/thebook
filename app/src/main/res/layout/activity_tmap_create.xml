@@ -8,6 +8,20 @@
     tools:context=".TMapCreateActivity">
 
     <Button
+        android:id="@+id/Kousin_button"
+        android:layout_width="103dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#DA1515"
+        android:text="更新"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <Button
         android:id="@+id/Hensyu_button"
         android:layout_width="106dp"
         android:layout_height="62dp"
@@ -16,10 +30,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.938" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar4"
@@ -52,11 +66,11 @@
         android:id="@+id/imageView3"
         android:layout_width="365dp"
         android:layout_height="465dp"
-        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/omisemap" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

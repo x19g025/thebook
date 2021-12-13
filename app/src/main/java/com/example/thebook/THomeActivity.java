@@ -38,7 +38,7 @@ public class THomeActivity extends AppCompatActivity {
         });
         TMap_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(THomeActivity.this, TMapCreateActivity.class); //店舗マップ編集
+                Intent intent = new Intent(THomeActivity.this, TMapCreateActivity.class); //店舗情報編集画面
                 startActivity(intent);
             }
         });

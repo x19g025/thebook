@@ -1,7 +1,6 @@
 package com.example.thebook;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.os.Bundle;

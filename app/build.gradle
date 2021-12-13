@@ -13,7 +13,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        minSdkVersion 24
+        minSdkVersion 27
     }
 
     buildTypes {
@@ -31,7 +31,7 @@ android {
 dependencies {
     implementation 'androidx.room:room-runtime:2.3.0-alpha03'
     implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha06'
-    annotationProcessor 'androidx.room:room-compiler:2.3.0-alpha03'
+    implementation 'androidx.room:room-runtime:2.3.0-alpha03'
 
     def room_version = "2.3.0"
     implementation "androidx.room:room-runtime:$room_version"

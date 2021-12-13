@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6E0AD"
     tools:context=".TPostActivity">
 
     <Button
@@ -125,7 +126,7 @@
         app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar3"
-        app:layout_constraintVertical_bias="0.235"
+        app:layout_constraintVertical_bias="0.254"
         app:srcCompat="@drawable/kuma" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
