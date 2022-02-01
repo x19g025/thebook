@@ -12,23 +12,23 @@ public class TShopInfoActivity extends AppCompatActivity
         implements AdapterView.OnItemClickListener {
 
     private static final String[] scenes = {
-            "船橋書店",
+//            "船橋書店",
             "FJB書店"
     };
     private static final String[] address = {
-            "〒273-0005 千葉県船橋市本町7丁目",
+//            "〒273-0005 千葉県船橋市本町7丁目",
             "〒273-0005 千葉県船橋市本町7丁目12-16"
     };
     private static final String[] time = {
-            "営業時間 10：00 ~ 20:00",
+//            "営業時間 10：00 ~ 20:00",
             "営業時間 10：00 ~ 22:00"
     };
     private static final String[] tel = {
-            "03-123-1594",
+//            "03-123-1594",
             "03-459-1932"
     };
     private static final String[] hp = {
-            "funabashi.net",
+//            "funabashi.net",
             "fjb.net"
     };
 

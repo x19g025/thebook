@@ -36,6 +36,12 @@
             android:name=".TPostActivity"
             android:exported="false" />
         <activity
+            android:name=".TPostActivity_make"
+            android:exported="false" />
+        <activity
+            android:name=".TPostActivity_make_fake"
+            android:exported="false" />
+        <activity
             android:name=".TStockChoiceActivity"
             android:exported="false" />
         <activity

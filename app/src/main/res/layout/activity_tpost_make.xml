@@ -26,7 +26,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ブログ・お知らせ"
+        android:text="作成画面"
         android:textColor="#151515"
         android:textSize="34sp"
         android:layout_gravity="center_horizontal"
@@ -38,46 +38,54 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="206dp"
-        android:layout_height="46dp"
-        android:text="FJB書店"
-        android:textColor="#090909"
-        android:textSize="34sp"
+
+    <EditText
+        android:id="@+id/coverInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintVertical_bias="0.274" />
+
+    <ImageView
+        android:id="@+id/img_picture"
+        android:layout_width="284dp"
+        android:layout_height="325dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
         android:id="@+id/btn_import"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#E38383"
-        android:text="作成"
+        android:text="インポート"
         android:textColor="#020202"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintHorizontal_bias="0.778"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.957" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_toukou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#E38383"
-        android:text="編集"
+        android:text="投稿"
         android:textColor="#020202"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintHorizontal_bias="0.185"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.957" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
