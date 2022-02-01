@@ -32,7 +32,7 @@ public class THomeActivity extends AppCompatActivity {
         });
         TShopInfoEdit_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(THomeActivity.this, TShopInfoActivity.class); //店舗情報編集画面
+                Intent intent = new Intent(THomeActivity.this, SubTShopInfoActivity.class); //店舗情報編集に遷移
                 startActivity(intent);
             }
         });

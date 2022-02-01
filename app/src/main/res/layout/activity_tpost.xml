@@ -95,7 +95,7 @@
         android:id="@+id/textView"
         android:layout_width="206dp"
         android:layout_height="46dp"
-        android:text="パンダ書店"
+        android:text="FJB書店"
         android:textColor="#090909"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
