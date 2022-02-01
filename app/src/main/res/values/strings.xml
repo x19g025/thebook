@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Your app name</string>
+    <string name="app_name">B-vench</string>
     <string name="description">photo</string>
     <string name="save">Button Save</string>
     <string name="read">Button Read</string>
